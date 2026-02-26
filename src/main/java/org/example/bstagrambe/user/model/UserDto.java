@@ -42,6 +42,7 @@ public class UserDto {
         private String password;
     }
 
+    @Getter
     @Builder
     public static class LoginRes{
         private Long idx;
